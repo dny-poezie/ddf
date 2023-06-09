@@ -1,0 +1,155 @@
+:root {
+	--content-width: 50rem;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #E8C184;
+	font-family: sans-serif;
+}
+
+/** ELEMENTS **/
+
+a img {
+	opacity: 0.50;
+	transition: opacity 0.2s ease-in-out 0s;
+}
+a img:hover {
+	opacity: 1.00;
+}
+
+/** CONTENT **/
+
+main {
+	display: block;
+	min-height: 100vh;
+	padding: 2rem;
+	overflow-y: auto;
+
+	font-family: 'Roboto', sans-serif;
+}
+
+content {
+	display: block;
+	max-width: var(--content-width);
+	margin: 0 auto;
+}
+
+main .logo {
+	height: 4rem;
+}
+main .logo img {
+	display: block;
+	margin: 0 auto;
+	height: 100%;
+}
+
+main .year {
+	font-size: 3em;
+	text-align: center;
+	font-weight: bold;
+}
+main .year * img {
+	display: block;
+	margin: 1rem auto 0;
+	height: 100%;
+}
+
+article {
+	display: block;
+	width: 100%;
+	margin: 2rem 0;
+	text-align: justify;
+}
+article#past-events {
+	opacity: 0.4;
+}
+
+.event:not(:last-child) {
+	margin-bottom: 3rem;
+}
+
+.event {
+	line-height: 1.5rem;
+}
+
+.event .date {grid-area: date;}
+.event .time {grid-area: time;}
+.event .place {grid-area: place;}
+.event .facebook-event {grid-area: facebook;}
+.event .title {grid-area: title;}
+.event .author {grid-area: author;}
+
+.event .facebook-event img {
+	height: 1em;
+}
+
+.event .date,
+.event .time,
+.event .place,
+.event .facebook-event {
+	display: inline-block;
+	margin-right: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.event .place,
+.event .title,
+.event .author {
+	text-transform: uppercase;
+}
+
+.event .title {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+}
+
+.event .author {
+	font-size: 1.3rem;
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+}
+
+
+/** FOOTER **/
+
+header,
+footer {
+	display: block;
+}
+
+header a,
+footer a {
+	display: block;
+	height: 3rem;
+	width: 3rem;
+	margin: 1rem auto;
+}
+
+header img,
+footer img {
+	height: 100%;
+}
+
+header p,
+footer p {
+	text-align: center;
+}
+
+/* Narrow screen */
+@media screen and (max-width: var(--content-width)) {
+	content {
+		margin: 0 auto;
+	}
+
+	aside {
+		width: 100vw;
+		height: auto;
+	}
+}

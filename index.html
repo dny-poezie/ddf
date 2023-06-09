@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Deset Deka Festival 2023</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<script>
+		function updateContent() {
+			const today = new Date().toISOString().substring(0, 10);
+
+			// do not color out any events if it's not June anymore
+			if (today >= "2023-06-30") { return; }
+
+			var currentEvents = document.getElementById("current-events");
+			var pastEvents = document.getElementById("past-events");
+			var events = currentEvents.children;
+
+			var pastIndex = -1;
+			for (var index = 0; index < events.length; index++) {
+				var timestamp = events[index].getAttribute("timestamp");
+				if (timestamp < today) { pastIndex += 1; }
+			}
+			for (var index = 0; index <= pastIndex; index++) {
+				pastEvents.appendChild(events[0]);
+			}
+		}
+	</script>
+</head>
+<body onload="updateContent()">
+	<main>
+	<content>
+		<div class="logo">
+			<img src="logo.svg" alt="Deset Deka Festival" />
+		</div>
+		<div class="year">2023</div>
+		<header>
+			<a target="_blank" href="https://www.facebook.com/DESETDEKAFESTIVAL">
+				<img src="facebook.svg" alt="Facebook Deset Deka Festivalu">
+			</a>
+		</header>
+		<article id="current-events">
+<div class='event' timestamp='2023-06-03'>
+<p class='date'>Sobota 3. 6., 19:00</p>
+<p class='place'>Aula JG Náchod</p>
+<p class='facebook-event'><a href='https://www.facebook.com/events/179789935034705' target='_blank'>
+<img src='facebook.svg' alt='Facebook'></a></p><p class='title'>Europeana/Wikipediana</p>
+<p class='author'>P. Ouředník/Wikipedie/DREJG</p>
+<p class='description'>Několikátý DREJGův pokus o scénické přečtení nejpřekládanější české knihy posledních dekád skrze největší otevřenou encyklopedii. 20. století v kostičce. Čtěme!</p>
+</div>
+<div class='event' timestamp='2023-06-06'>
+<p class='date'>Úterý 6. 6., 18:00</p>
+<p class='place'>Aula JG Náchod</p>
+<p class='facebook-event'><a href='https://www.facebook.com/events/2191699337695538' target='_blank'>
+<img src='facebook.svg' alt='Facebook'></a></p><p class='title'>Šest</p>
+<p class='author'>DRED</p>
+<p class='description'>Šest postav chodí kolem stolu a hledá stůl, který obživl. Performance v činohře či činohra v performanci a to všechno v divadle v divadle. Divme se!</p>
+</div>
+<div class='event' timestamp='2023-06-08'>
+<p class='date'>Čtvrtek 8. 6., 19:00</p>
+<p class='place'>Zrcadlový sál JG Náchod</p>
+<p class='facebook-event'><a href='https://www.facebook.com/events/1661632687615516' target='_blank'>
+<img src='facebook.svg' alt='Facebook'></a></p><p class='title'>Běsi</p>
+<p class='author'>F. M. Dostojevskij/Společnost Dr. Krásy</p>
+<p class='description'>Největším zlem člověka je dle autora románu vlažnost srdce a víry, nikoliv ateismus. Věřme!</p>
+</div>
+<div class='event' timestamp='2023-06-10'>
+<p class='date'>Sobota 10. 6., 18:00</p>
+<p class='place'>Aula JG Náchod</p>
+<p class='facebook-event'><a href='https://www.facebook.com/events/753295010050124' target='_blank'>
+<img src='facebook.svg' alt='Facebook'></a></p><p class='title'>Nikdy naráz netrápí tě mráz a oblak z komárů</p>
+<p class='author'>Hana Voříšková</p>
+<p class='description'>Divadelní inscenace eskymácké poezie. Mráz, sníh, mrož, komáři a všechny další postavy. Netrapme se!</p>
+</div>
+<div class='event' timestamp='2023-06-15'>
+<p class='date'>Čtvrtek 15. 6., 19:00</p>
+<p class='place'>Antikvariát Hora</p>
+<p class='facebook-event'><a href='https://www.facebook.com/events/1430937694407793' target='_blank'>
+<img src='facebook.svg' alt='Facebook'></a></p><p class='title'>Antikvariátní večírek</p>
+<p class='author'>Společnost pro pořádání antikvariátních večírků</p>
+<p class='description'>Oblíbený kousek oscilující mezi happeningem, výstavou, koncertem, performancí, (ne)autorským čtením a mejdanem. Oscilujme!</p>
+</div>
+<div class='event' timestamp='2023-06-16'>
+<p class='date'>Pátek 16. 6., 15:00</p>
+<p class='place'>Area TEPNA</p>
+<p class='facebook-event'><a href='https://www.facebook.com/events/591296952805945' target='_blank'>
+<img src='facebook.svg' alt='Facebook'></a></p><p class='title'>NÁCHOD 3.0 – performance – prezentace - vernisáž</p>
+<p class='author'>GVUN Náchod/Regionální muzeum Náchod</p>
+<p class='description'>Co kdyby na místě areálu bývalé Tepny vznikl městský park? Co bychom v něm dělali a jak bychom se tam cítili?<br>Potenciální budoucnost okusíme na/ve vlastním těle. Společná procházka a cvičení základních forem kung-fu dočasně promění místo a dá mu nový obsah. Více než na fyzické zdatnosti záleží na otevřenosti mysli a všímavosti ke skrytému potenciálu (ne)míst v našem okolí.<br>Průvodci: Heidi Hornáčková, Anna Smékalová a Adam Smékal (kung-fu)<br>Zažijme!</p>
+</div>
+<div class='event' timestamp='2023-06-16'>
+<p class='date'>Pátek 16. 6., 17:00</p>
+<p class='place'>GVUN Malá, Plhovská 862, 547 01 Náchod</p>
+<p class='facebook-event'><a href='https://www.facebook.com/events/591296952805945' target='_blank'>
+<img src='facebook.svg' alt='Facebook'></a></p><p class='title'>NÁCHOD 3.0 – performance – prezentace - vernisáž</p>
+<p class='author'>GVUN Náchod/Regionální muzeum Náchod</p>
+<p class='description'>Co kdyby na místě areálu bývalé Tepny vznikl městský park? Co bychom v něm dělali a jak bychom se tam cítili?<br>Potenciální budoucnost okusíme na/ve vlastním těle. Společná procházka a cvičení základních forem kung-fu dočasně promění místo a dá mu nový obsah. Více než na fyzické zdatnosti záleží na otevřenosti mysli a všímavosti ke skrytému potenciálu (ne)míst v našem okolí.<br>Průvodci: Heidi Hornáčková, Anna Smékalová a Adam Smékal (kung-fu)<br>Zažijme!</p>
+</div>
+<div class='event' timestamp='2023-06-18'>
+<p class='date'>Neděle 18. 6., 15:00</p>
+<p class='place'>Velký sál Déčka Náchod</p>
+<p class='facebook-event'><a href='https://www.facebook.com/events/6147269968695576' target='_blank'>
+<img src='facebook.svg' alt='Facebook'></a></p><p class='title'>Kutululu</p>
+<p class='author'>Je to tajný! ZUŠ Jaroměř</p>
+<p class='description'>Kulatá divadelní chvilka pro batolata a jejich rodiče. Interaktivní hra s barvami, tvary, zvuky a míčky. Po představení si děti a rodiče mohou pohrát. Diváci 10 měsíců až 3 roky (a jejich rodiče a prarodiče). Koulejme se!</p>
+</div>
+<div class='event' timestamp='2023-06-19'>
+<p class='date'>Pondělí 19. 6., 19:00</p>
+<p class='place'>Aula JG Náchod</p>
+<p class='facebook-event'><a href='https://www.facebook.com/events/206220458962128' target='_blank'>
+<img src='facebook.svg' alt='Facebook'></a></p><p class='title'>Máj</p>
+<p class='author'>Karel Hynek Mácha/Jiří Adámek Austerlitz/BocaLocaLab</p>
+<p class='description'>Zbavit Máchu sentimentálního pozlátka a vystihnout to, co je v jeho básni vášnivé, kruté a palčivé. Čtvero herců virtuozním způsobem přechází od voicebandových sborů k niterným sólovým výpovědím o hrůze z nicoty a hledání smyslu života. Hudebník Michal Cáb přímo na scéně odpovídá pomocí nástrojů, hlučítek, ťukátek, vábniček a modulárního syntetizátoru. O lásce (jen) šeptejme!</p>
+</div>
+<div class='event' timestamp='2023-06-21'>
+<p class='date'>Středa 21. 6., 19:00</p>
+<p class='place'>JG Náchod</p>
+<p class='facebook-event'><a href='https://www.facebook.com/events/1360355474522958' target='_blank'>
+<img src='facebook.svg' alt='Facebook'></a></p><p class='title'>Umučení</p>
+<p class='author'>Achtung! 21/sjiben houben</p>
+<p class='description'>Nechceš zemřít zapomenut. Nechceš nechat vyprahnout tvé sémě bez zasazení. Možná pochybuješ, možná nevěříš, ale rozhodně vyješ, hýkáš a trpíš. Přijď si ulevit. Stát se svatým nikdy nebylo jednodušší. Využijeme všech metod, kterých se dá. Do Hospodinova shromáždění nevstoupí, kdo má rozdrcená varlata nebo uříznutý pyj. Ulevme si!</p>
+</div>
+<div class='event' timestamp='2023-06-29'>
+<p class='date'>Čtvrtek 29. 6., 16:00</p>
+<p class='place'>JG Náchod</p>
+<p class='facebook-event'><a href='https://www.facebook.com/events/198970699709579' target='_blank'>
+<img src='facebook.svg' alt='Facebook'></a></p><p class='title'>Odpolední postulát</p>
+<p class='author'>Markéta Bohadlová/Julie Remešová</p>
+<p class='description'>Odborný specialista fyziologicky zkoumá části lidského těla. Instalace performance nebo instalace/ performance. Zkoumejme!</p>
+</div>
+		</article>
+		<article id="past-events">
+		</article>
+		<footer>
+			<a target="_blank" href="https://www.facebook.com/DESETDEKAFESTIVAL/">
+				<img src="facebook.svg" alt="Facebook Deset Deka Festivalu">
+			</a>
+			<p>kontakt: macura@gymnachod.cz</p>
+		</footer>
+	</content>
+	</main>
+</body>
+</html>

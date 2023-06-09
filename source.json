@@ -1,0 +1,108 @@
+{
+	"year": "2023",
+	"title": "Deset Deka Festival",
+	"facebook": "https://www.facebook.com/DESETDEKAFESTIVAL",
+	"contact": "macura@gymnachod.cz",
+	"events": [
+		{
+			"date": "2023-06-03 19:00",
+			"place": "Aula JG Náchod",
+			"title": "Europeana/Wikipediana",
+			"authors": [
+				"P. Ouředník",
+				"Wikipedie",
+				"DREJG"
+			],
+			"description": [
+				"Několikátý DREJGův pokus o scénické přečtení nejpřekládanější české knihy posledních dekád skrze největší otevřenou encyklopedii. 20. století v kostičce. Čtěme!"
+			],
+			"facebook": "https://www.facebook.com/events/179789935034705"
+		},
+		{
+			"date": "2023-06-06 18:00",
+			"place": "Aula JG Náchod",
+			"title": "Šest",
+			"authors": ["DRED"],
+			"description": ["Šest postav chodí kolem stolu a hledá stůl, který obživl. Performance v činohře či činohra v performanci a to všechno v divadle v divadle. Divme se!"],
+			"facebook": "https://www.facebook.com/events/2191699337695538"
+		},
+		{
+			"date": "2023-06-08 19:00",
+			"place": "Zrcadlový sál JG Náchod",
+			"title": "Běsi",
+			"authors": ["F. M. Dostojevskij", "Společnost Dr. Krásy"],
+			"description": ["Největším zlem člověka je dle autora románu vlažnost srdce a víry, nikoliv ateismus. Věřme!"],
+			"facebook": "https://www.facebook.com/events/1661632687615516"
+		},
+		{
+			"date": "2023-06-10 18:00",
+			"place": "Aula JG Náchod",
+			"title": "Nikdy naráz netrápí tě mráz a oblak z komárů",
+			"authors": ["Hana Voříšková"],
+			"description": ["Divadelní inscenace eskymácké poezie. Mráz, sníh, mrož, komáři a všechny další postavy. Netrapme se!"],
+			"facebook": "https://www.facebook.com/events/753295010050124"
+		},
+		{
+			"date": "2023-06-15 19:00",
+			"place": "Antikvariát Hora",
+			"title": "Antikvariátní večírek",
+			"authors": ["Společnost pro pořádání antikvariátních večírků"],
+			"description": ["Oblíbený kousek oscilující mezi happeningem, výstavou, koncertem, performancí, (ne)autorským čtením a mejdanem. Oscilujme!"],
+			"facebook": "https://www.facebook.com/events/1430937694407793"
+		},
+		{
+			"date": "2023-06-16 15:00",
+			"place": "Area TEPNA",
+			"title": "NÁCHOD 3.0 – performance – prezentace - vernisáž",
+			"authors": ["GVUN Náchod", "Regionální muzeum Náchod"],
+			"description": ["Co kdyby na místě areálu bývalé Tepny vznikl městský park? Co bychom v něm dělali a jak bychom se tam cítili?",
+					"Potenciální budoucnost okusíme na/ve vlastním těle. Společná procházka a cvičení základních forem kung-fu dočasně promění místo a dá mu nový obsah. Více než na fyzické zdatnosti záleží na otevřenosti mysli a všímavosti ke skrytému potenciálu (ne)míst v našem okolí.",
+					"Průvodci: Heidi Hornáčková, Anna Smékalová a Adam Smékal (kung-fu)",
+					"Zažijme!"],
+			"facebook": "https://www.facebook.com/events/591296952805945"
+		},
+		{
+			"date": "2023-06-16 17:00",
+			"place": "GVUN Malá, Plhovská 862, 547 01 Náchod",
+			"title": "NÁCHOD 3.0 – performance – prezentace - vernisáž",
+			"authors": ["GVUN Náchod", "Regionální muzeum Náchod"],
+			"description": ["Co kdyby na místě areálu bývalé Tepny vznikl městský park? Co bychom v něm dělali a jak bychom se tam cítili?",
+					"Potenciální budoucnost okusíme na/ve vlastním těle. Společná procházka a cvičení základních forem kung-fu dočasně promění místo a dá mu nový obsah. Více než na fyzické zdatnosti záleží na otevřenosti mysli a všímavosti ke skrytému potenciálu (ne)míst v našem okolí.",
+					"Průvodci: Heidi Hornáčková, Anna Smékalová a Adam Smékal (kung-fu)",
+					"Zažijme!"],
+			"facebook": "https://www.facebook.com/events/591296952805945"
+		},
+		{
+			"date": "2023-06-18 15:00",
+			"place": "Velký sál Déčka Náchod",
+			"title": "Kutululu",
+			"authors": ["Je to tajný! ZUŠ Jaroměř"],
+			"description": ["Kulatá divadelní chvilka pro batolata a jejich rodiče. Interaktivní hra s barvami, tvary, zvuky a míčky. Po představení si děti a rodiče mohou pohrát. Diváci 10 měsíců až 3 roky (a jejich rodiče a prarodiče). Koulejme se!"],
+			"facebook": "https://www.facebook.com/events/6147269968695576"
+		},
+		{
+			"date": "2023-06-19 19:00",
+			"place": "Aula JG Náchod",
+			"title": "Máj",
+			"authors": ["Karel Hynek Mácha", "Jiří Adámek Austerlitz", "BocaLocaLab"],
+			"description": ["Zbavit Máchu sentimentálního pozlátka a vystihnout to, co je v jeho básni vášnivé, kruté a palčivé. Čtvero herců virtuozním způsobem přechází od voicebandových sborů k niterným sólovým výpovědím o hrůze z nicoty a hledání smyslu života. Hudebník Michal Cáb přímo na scéně odpovídá pomocí nástrojů, hlučítek, ťukátek, vábniček a modulárního syntetizátoru. O lásce (jen) šeptejme!"],
+			"facebook": "https://www.facebook.com/events/206220458962128"
+		},
+		{
+			"date": "2023-06-21 19:00",
+			"place": "JG Náchod",
+			"title": "Umučení",
+			"authors": ["Achtung! 21", "sjiben houben"],
+			"description": ["Nechceš zemřít zapomenut. Nechceš nechat vyprahnout tvé sémě bez zasazení. Možná pochybuješ, možná nevěříš, ale rozhodně vyješ, hýkáš a trpíš. Přijď si ulevit. Stát se svatým nikdy nebylo jednodušší. Využijeme všech metod, kterých se dá. Do Hospodinova shromáždění nevstoupí, kdo má rozdrcená varlata nebo uříznutý pyj. Ulevme si!"],
+			"facebook": "https://www.facebook.com/events/1360355474522958"
+		},
+		{
+			"date": "2023-06-29 16:00",
+			"place": "JG Náchod",
+			"title": "Odpolední postulát",
+			"authors": ["Markéta Bohadlová", "Julie Remešová"],
+			"description": ["Odborný specialista fyziologicky zkoumá části lidského těla. Instalace performance nebo instalace/ performance. Zkoumejme!"],
+			"facebook": "https://www.facebook.com/events/198970699709579"
+		}
+	]
+}
