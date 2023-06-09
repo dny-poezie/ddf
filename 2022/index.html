@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Deset Deka Festival 2022</title>
+	<link rel="stylesheet" type="text/css" href="style.2022.css">
+	 <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<script>
+		function greyOut() {
+			const today = new Date();
+
+			var events = document.getElementsByClassName("event");
+			for (var index = 0; index < events.length; index++) {
+				var timestampStr = events[index].getAttribute("timestamp");
+				var [YYYY, MM, DD] = timestampStr.split("-");
+				var timestamp = new Date(YYYY, MM - 1, DD);
+
+				if (timestamp.getTime() < today.getTime()) {
+					events[index].classList.add("past-event");
+				}
+			}
+		}
+	</script>
+</head>
+<body onload="greyOut()">
+	<aside class="loading">
+		<img src="poster.2022.jpg" alt="Plakát" />
+	</aside>
+
+	<main>
+	<content>
+		<div class="logo">
+			<img src="logo.2022.svg" alt="Logo" />
+		</div>
+		<div class="year"><span>
+			<img src="year.2022.svg" alt="2022" />
+		</span></div>
+		<article>
+			<div class="event" timestamp="2022-06-01">
+				<p class="date">Středa 1. června</p>
+				<p class="time">18:00</p>
+				<p class="place">Karlovo náměstí/Příkopy</p>
+				<p class="facebook-event"><a href="https://www.facebook.com/events/467533935170600" target="_blank">
+					<img src="facebook.svg" alt="facebook" />
+				</a></p>
+				<p class="title">MDD(RED)</p>
+				<p class="author"></p>
+			</div>
+
+			<div class="event" timestamp="2022-06-03">
+				<p class="date">Pátek 3. června</p>
+				<p class="time">19:00</p>
+				<p class="place">Jiráskovo gymnázium</p>
+				<p class="facebook-event"><a href="https://www.facebook.com/events/2004518159742545" target="_blank">
+					<img src="facebook.svg" alt="facebook" />
+				</a></p>
+				<p class="title">Havranec/Krkavan</p>
+				<p class="author">DREJG</p>
+			</div>
+
+			<div class="event" timestamp="2022-06-17">
+				<p class="date">Pátek 17. června</p>
+				<p class="time">19:00</p>
+				<p class="place">Okolí Jiráskova gymnázia</p>
+				<p class="facebook-event"><a href="https://www.facebook.com/events/348408774026505" target="_blank">
+					<img src="facebook.svg" alt="facebook" />
+				</a></p>
+				<p class="title">Raut</p>
+				<p class="author">Geisslers Hofcomoedianten</p>
+			</div>
+
+			<div class="event" timestamp="2022-06-19">
+				<p class="date">Neděle 19. června</p>
+				<p class="time">19:00</p>
+				<p class="place">Jiráskovo gymnázium</p>
+				<p class="facebook-event"><a href="https://www.facebook.com/events/714554626635179" target="_blank">
+					<img src="facebook.svg" alt="facebook" />
+				</a></p>
+				<p class="title">Michel čili Lístek na&nbsp;sny</p>
+				<p class="author">JAMU</p>
+			</div>
+
+			<div class="event" timestamp="2022-06-23">
+				<p class="date">Čtvrtek 23. června</p>
+				<p class="time">19:00</p>
+				<p class="place">Stan Stage v&nbsp;parku u kostela sv. Michala</p>
+				<p class="facebook-event"><a href="https://www.facebook.com/events/324247893226404" target="_blank">
+					<img src="facebook.svg" alt="facebook" />
+				</a></p>
+				<p class="title">Putin lyžuje (hra o zrození vraha)</p>
+				<p class="author">Divadlo Líšeň</p>
+			</div>
+
+			<div class="event" timestamp="2022-06-29">
+				<p class="date">Středa 29. června</p>
+				<p class="time">17:00</p>
+				<p class="place">Antikvariát Hora</p>
+				<p class="facebook-event"><a href="https://www.facebook.com/events/5481328345259070" target="_blank">
+					<img src="facebook.svg" alt="facebook" />
+				</a></p>
+				<p class="title">5. Antikvariátní večírek</p>
+				<p class="author">Společnost antikvariátních večírků</p>
+			</div>
+
+			<div class="event" timestamp="2022-06-30">
+				<p class="date">Čtvrtek 30. června</p>
+				<p class="time">18:00</p>
+				<p class="place">Kavárna Láry Fáry (Bistro Pecka)</p>
+				<p class="facebook-event"><a href="https://www.facebook.com/events/1497470647343968" target="_blank">
+					<img src="facebook.svg" alt="facebook" />
+				</a></p>
+				<p class="title">Černobílá tečka</p>
+				<p class="author">PřE.K.vapení a Der Šenster Gob</p>
+			</div>
+		</article>
+		<footer>
+			<a target="_blank" href="https://www.facebook.com/DESETDEKAFESTIVAL/">
+				<img src="facebook.svg" alt="Facebook Deset Deka festivalu">
+			</a>
+			<p>kontakt: macura@gymnachod.cz</p>
+		</footer>
+		<div class="image-gradient image-gradient-left"></div>
+	</content>
+	</main>
+</body>
+</html>

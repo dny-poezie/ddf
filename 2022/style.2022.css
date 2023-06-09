@@ -1,0 +1,230 @@
+:root {
+	--aside-width: calc(100vh * 0.707);
+	--main-width: calc(100vw - var(--aside-width));
+	--gradient-width: 1.5rem;
+	--gradient-split: calc(var(--gradient-width) / 3);
+	--gradient-intensity: 0.25;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #F3F3F5;
+	overflow: hidden;
+	height: 100vh;
+	width: 100vw;
+
+	display: grid;
+	grid-template-columns: var(--aside-width) auto;
+	grid-template-rows: auto;
+	grid-template-areas: "aside main";
+
+	font-family: sans-serif;
+}
+
+/** ELEMENTS **/
+
+@keyframes loadingAnimation {
+	0% {background-position: 100% 0;}
+	50% {background-position: 50% 0;}
+	100% {background-position: 0% 0;}
+}
+
+.loading {
+	--color1: #a9a7a7;
+	--color2: #a2a0a0;
+
+	background-image: linear-gradient(
+		90deg,
+		var(--color1) 33%, var(--color2) 50%, var(--color1) 66%
+	);
+	background-size: 300% 100%;
+	animation: loadingAnimation 1s infinite linear;
+}
+
+.image-gradient {
+	z-index: 2;
+	transition: opacity 0.5s ease-in-out 0s;
+}
+.image-gradient-right {
+	background: linear-gradient(
+		270deg,
+		rgba(0, 0, 0, var(--gradient-intensity)), var(--gradient-split), transparent
+	);
+}
+.image-gradient-left {
+	background: linear-gradient(
+		90deg,
+		rgba(0, 0, 0, var(--gradient-intensity)), var(--gradient-split), transparent
+	);
+}
+
+a img {
+	opacity: 0.50;
+	transition: opacity 0.2s ease-in-out 0s;
+}
+a img:hover {
+	opacity: 1.00;
+}
+
+/** CONTENT **/
+
+aside {
+	display: block;
+	height: 100vh;
+	/* The poster is A3-like format */
+	width: var(--aside-width);
+	grid-area: aside;
+}
+aside img {
+	height: 100%;
+	width: 100%;
+}
+
+main {
+	display: block;
+	min-height: 100vh;
+	padding: 2rem;
+	grid-area: main;
+	overflow-y: auto;
+
+	font-family: 'Roboto', sans-serif;
+}
+
+content {
+	display: block;
+	max-width: 40rem;
+}
+
+main .logo {
+	height: 4rem;
+}
+main .logo img {
+	display: block;
+	margin: 0 auto;
+	height: 100%;
+}
+
+main .year {
+	height: 3em;
+}
+main .year img {
+	display: block;
+	margin: 1rem auto 0;
+	height: 100%;
+}
+
+main .image-gradient {
+	position: absolute;
+	top: 0;
+	left: var(--aside-width);
+	height: 100vh;
+	width: var(--gradient-width);
+}
+
+article {
+	display: block;
+	width: 100%;
+	margin: 2rem 0;
+	text-align: justify;
+}
+
+.event:not(:last-child) {
+	margin-bottom: 3rem;
+}
+
+.event {
+	line-height: 1.5rem;
+}
+
+.event.past-event {
+	color: #777;
+}
+
+.event .date {grid-area: date;}
+.event .time {grid-area: time;}
+.event .place {grid-area: place;}
+.event .facebook-event {grid-area: facebook;}
+.event .title {grid-area: title;}
+.event .author {grid-area: author;}
+
+.event .facebook-event img {
+	height: 1em;
+}
+
+.event .date,
+.event .time,
+.event .place,
+.event .facebook-event {
+	display: inline-block;
+	margin-right: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+
+.event .place,
+.event .title,
+.event .author {
+	text-transform: uppercase;
+}
+
+.event .title,
+.event .author {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+}
+
+
+/** FOOTER **/
+
+footer {
+	display: block;
+}
+
+footer a {
+	display: block;
+	height: 3rem;
+	width: 3rem;
+	margin: 1rem auto;
+}
+
+footer img {
+	height: 100%;
+}
+
+footer p {
+	text-align: center;
+}
+
+/* Narrow screen */
+@media screen and (max-aspect-ratio: 1.33) {
+	body {
+		height: auto;
+		grid-template-columns: auto;
+		grid-template-rows: max-content max-content;
+		grid-template-areas: "main" "aside";
+		overflow-y: auto;
+	}
+
+	main {
+		min-height: inherit;
+	}
+
+	main .image-gradient {
+		display: none;
+	}
+
+	content {
+		margin: 0 auto;
+	}
+
+	aside {
+		width: 100vw;
+		height: auto;
+	}
+}
