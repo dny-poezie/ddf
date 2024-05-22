@@ -1,0 +1,56 @@
+{
+	"year": "2024",
+	"title": "Deset Deka Festival",
+	"facebook": "https://www.facebook.com/DESETDEKAFESTIVAL",
+	"contact": "macura@gymnachod.cz",
+	"events": [
+		{
+			"date": "2024-06-05 17:00",
+			"place": "Aula JGN",
+			"title": "Pět",
+			"authors": [
+				"DRED"
+			],
+			"description": [
+				""
+			],
+			"facebook": ""
+		},
+		{
+			"date": "2024-06-08 19:30",
+			"place": "Aula JGN",
+			"title": "Všechno své si nosím s sebou",
+			"authors": [
+				"Markéta Bohadlová"
+			],
+			"description": [
+				""
+			],
+			"facebook": ""
+		},
+		{
+			"date": "2024-06-21 19:00",
+			"place": "Antikvariát",
+			"title": "Antikvariátní večírek",
+			"authors": [
+				"Společnost pro organizaci Antikvariátních večírků"
+			],
+			"description": [
+				""
+			],
+			"facebook": ""
+		},
+		{
+			"date": "2024-06-28 19:30",
+			"place": "Aula JGN",
+			"title": "Košilice a Okšila",
+			"authors": [
+				"Manus Art"
+			],
+			"description": [
+				""
+			],
+			"facebook": ""
+		}
+	]
+}

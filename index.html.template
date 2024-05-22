@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{{title}} {{year}}</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+	<script>
+		function updateContent() {
+			const today = new Date().toISOString().substring(0, 10);
+
+			// do not color out any events if it's not June anymore
+			if (today >= "2023-06-30") { return; }
+
+			var currentEvents = document.getElementById("current-events");
+			var pastEvents = document.getElementById("past-events");
+			var events = currentEvents.children;
+
+			var pastIndex = -1;
+			for (var index = 0; index < events.length; index++) {
+				var timestamp = events[index].getAttribute("timestamp");
+				if (timestamp < today) { pastIndex += 1; }
+			}
+			for (var index = 0; index <= pastIndex; index++) {
+				pastEvents.appendChild(events[0]);
+			}
+		}
+	</script>
+</head>
+<body onload="updateContent()">
+	<main>
+	<content>
+		<div class="logo">
+			<img src="logo.svg" alt="{{title}}" />
+		</div>
+		<header>
+			<div class="year">{{year}}</div>
+			<a target="_blank" href="{{facebook}}">
+				<img src="facebook.svg" alt="Facebook {{title}}u">
+			</a>
+		</header>
+		<article id="current-events">
+{{events}}
+		</article>
+		<article id="past-events">
+		</article>
+		<footer>
+			<a target="_blank" href="https://www.facebook.com/DESETDEKAFESTIVAL/">
+				<img src="facebook.svg" alt="Facebook {{title}}u">
+			</a>
+			<p>kontakt: {{contact}}</p>
+		</footer>
+	</content>
+	</main>
+</body>
+</html>
