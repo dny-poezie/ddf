@@ -8,8 +8,29 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+	<script>
+		function updateContent() {
+			const today = new Date().toISOString().substring(0, 10);
+
+			// do not color out any events if it's not June anymore
+			if (today >= "2024-06-30") { return; }
+
+			var currentEvents = document.getElementById("current-events");
+			var pastEvents = document.getElementById("past-events");
+			var events = currentEvents.children;
+
+			var pastIndex = -1;
+			for (var index = 0; index < events.length; index++) {
+				var timestamp = events[index].getAttribute("timestamp");
+				if (timestamp < today) { pastIndex += 1; }
+			}
+			for (var index = 0; index <= pastIndex; index++) {
+				pastEvents.appendChild(events[0]);
+			}
+		}
+	</script>
 </head>
-<body>
+<body onload="updateContent()">
 	<main>
 	<content>
 		<div class="logo">
@@ -21,13 +42,96 @@
 				<img src="facebook.svg" alt="Facebook Deset Deka Festivalu">
 			</a>
 		</header>
+		<article id="current-events">
 
-		<article>
-			<div class="event">
-				<p style="text-align: center;">DRED, DREJG, Geisslers Hofcomoedianten, Športniki & Jelení loje, Markéta Bohadlová, Přečíst spolu, Manus Art, slam poetry, Antikvariátní večírek, ...</p>
-				<p style="text-align: center;">přesný program již brzy</p>
-			</div>
+        <div class='event' timestamp='2024-06-05'>
+            <p class='title'>Pět &mdash; DRED</p>
+            <p class='when'>5. 6. 17:55 Aula JGN</p>
+            <p class='description'>Pět, čtyři, tři, dva, jedna, velký třesk a plesky. 5, 4, 3, 2, 0, -1, -2, -3, -4, -5, velký třeskutý ples, hudba, činy, hlásky, prodej horkých a mražených hondogů. DRED jako každým rokem odváží prvních deset deka divadelní poezie.</p>
+            <p class='price'>vstupné: 100,-</p>
+        </div>
+        
+
+        <div class='event' timestamp='2024-06-08'>
+            <p class='title'>Všechno své si nosím s sebou &mdash; Markéta Bohadlová</p>
+            <p class='when'>8. 6. 19:30 Aula JGN</p>
+            <p class='description'>“Všechno své si nosím s sebou. Něco v batohu, v kapse, v hlavě. A pak jsou tu věci, o kterých ani nevím, že je nosím. Mám v sobě od předků trochu hor, luk a i města. Nevím, zda je to domov, ale je to moje. Nějak.” Markéta Bohadlová si ve svém batohu přinese trochu Brna, trochu Jamu, trochu z každé verze jejího JÁ. Do domoviny se vrátí a zavzpomíná.</p>
+            <p class='price'>vstupné: 100,-</p>
+        </div>
+        
+
+        <div class='event' timestamp='2024-06-10'>
+            <p class='title'>Juany/i &mdash; DREJG</p>
+            <p class='when'>10. 6. 17:00 Aula JGN</p>
+            <p class='description'>Všichni jsou Juani? Všichni by chtěli být Juani? Všichni by měli být Juani? Soubor Drejg, hrdě reprezentující Jiráskovo gymnázium na divadelních přehlídkách Audimafor, Šrámkův Písek, Mladá scéna v Ústí nad Orlicí a další, v letošním roce přichází s jevištní koláží z různých verzí juanovského mýtu od renesance po současnost. Drejg inspiruje, hledá, experimentuje, spojuje. Spojte se s ním!</p>
+            <p class='price'>vstupné: 100,-</p>
+        </div>
+        
+
+        <div class='event' timestamp='2024-06-13'>
+            <p class='title'>Příběh stromů &mdash; Geisslers Hofcomoedianten</p>
+            <p class='when'>13. 6. 17:00 JGN, dvůr venku</p>
+            <p class='description'>Soubor Geisslers Hofcomoedianten a divadlo Vocaď Pocaď vytvořili loutkovou inscenaci pro děti i jejich rodiče. V ní poodkrývají krásu a tajemství stromů, přičemž vycházejí z výzkumu německého autora Petera Wohllebena. Společně se zaposloucháme do tónů barokní hudby a oddáme se všem kouzlům lesa.</p>
+            <p class='price'></p>
+        </div>
+        
+
+        <div class='event' timestamp='2024-06-14'>
+            <p class='title'>SLAM POETRY &mdash; Anatol Svahilec, Tim Postovit, Honza Nevečeřal</p>
+            <p class='when'>14. 6. 19:30 Aula JGN</p>
+            <p class='description'>Pro všechny nadšence hry se slovem radostně prohlašujeme, že ANATOL SVAHILEC (mistr ČR 2014, maskot žánru, strýček Jedlička české slam poetry), TIM POSTOVIT (mistr Duo slamu 2019, rusista a překladatel, poeticko-humoristický performativní zbojník), HONZA NEVEČEŘAL (muž divé exprese i distinguovaného, nejen jevištního, vystupování) jsou jasnou zárukou kvalitního performativního zážitku.</p>
+            <p class='price'></p>
+        </div>
+        
+
+        <div class='event' timestamp='2024-06-19'>
+            <p class='title'>Back to Bullerbyn &mdash; Divadlo Športniki</p>
+            <p class='when'>19. 6. 18:30 Aula JGN</p>
+            <p class='description'>Večer naplněn hned dvěma jedinečnými programy! Tím prvním je inscenace Back to Bullerbyn, jež volně pracuje s motivy knihy Astrid Lindgrenové. Zvědavému divákovi ukáže, co se stane s Bullerbynem, když člověk dospěje. Na představení naváže...</p>
+            <p class='price'></p>
+        </div>
+        
+
+        <div class='event' timestamp='2024-06-19'>
+            <p class='title'>Koncert &mdash; Jelení Loje</p>
+            <p class='when'>19. 6. 20:30 Aula JGN</p>
+            <p class='description'>...koncert hudebně-dramatické kapely Jelení Loje, která prostor auly naplní jazzem a swingem. Čtyři herečky, zpěvačky a instrumentalistky (Jana Nosálková, Anna Theimerová, Johana Vavřínová a Elena Volpi) a herec a kytarista Václav Jelínek se nebojí mísit zpěv, tanec, ironii a improvizaci. Do své kabaretní show vtáhnou každého!</p>
+            <p class='price'></p>
+        </div>
+        
+
+        <div class='event' timestamp='2024-06-21'>
+            <p class='title'>Antikvariátní večírek &mdash; Společnost pro organizaci Antikvariátních večírků</p>
+            <p class='when'>21. 6. 19:00 Antikvariát Hora</p>
+            <p class='description'>Dveře náchodského antikvariátu zůstanou výjimečně otevřené i po šesté hodině večer, aby krásné duše mohly společně pobývat, prohlížet si knihy, kupovat knihy, popíjet víno, poslouchat hudbu a letos se i netradičním způsobem rozpohybovat.</p>
+            <p class='price'></p>
+        </div>
+        
+
+        <div class='event' timestamp='2024-06-26'>
+            <p class='title'>Knížkové divadlo pro děti &mdash; Přečíst spolu</p>
+            <p class='when'>26. 6. 17:00 Déčko Náchod</p>
+            <p class='description'>Přátelské zdivadlení jedné velmi hmyzí dětské knížky v produkci holek, co (si) rády čtou, a jejich rodin, přátel i náhodných kolemjdoucích.</p>
+            <p class='price'></p>
+        </div>
+        
+
+        <div class='event' timestamp='2024-06-28'>
+            <p class='title'>Košilice a Okšila &mdash; Manus Art</p>
+            <p class='when'>28. 6. 19:30 Aula JGN</p>
+            <p class='description'>Pražský taneční soubor Manus Art Collective v díle Košilice a Okšila prozkoumává vrstvy textilu, v nichž se každý jedinec může jednoduše schovat a přejímat odlišné identity. Pokládá si otázku, jakým způsobem může náš zevnějšek ovlivňovat naše okolí a poukazuje na absurditu volby “módních” kousků, které nás ve společnosti definují.</p>
+            <p class='price'></p>
+        </div>
+        
 		</article>
+		<article id="past-events">
+		</article>
+		<footer>
+			<a target="_blank" href="https://www.facebook.com/DESETDEKAFESTIVAL/">
+				<img src="facebook.svg" alt="Facebook Deset Deka Festivalu">
+			</a>
+			<p>kontakt: macura@gymnachod.cz</p>
+		</footer>
 	</content>
 	</main>
 </body>

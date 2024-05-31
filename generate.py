@@ -37,23 +37,22 @@ def generate_event(event: dict) -> str:
 
         result = r"""
         <div class='event' timestamp='{timestamp}'>
-            <p class='title'>{title} &mdash; {author}
-                <a href='{link}' alt='Facebook'><img src='facebook.svg' /></a>
-            </p>
+            <p class='title'>{title} &mdash; {author}</p>
             <p class='when'>{date} {time} {place}</p>
             <p class='description'>{description}</p>
+            <p class='price'>{price}</p>
         </div>
         """
 
         result = result.format(
             timestamp=timestamp.strftime("%Y-%m-%d"),
             title=event["title"],
-            author=", ".join(event["authors"]),
-            link=event["facebook"],
+            author=event["author"],
             date=timestamp.strftime("%-d. %-m."),
             time=timestamp.strftime("%H:%M"),
             place=event["place"],
-            description="<br>".join(event["description"]),
+            description=event["description"],
+            price=f"vstupné: {event['price']}" if event.get("price", "") else "",
         )
         return result
     except Exception as exc:

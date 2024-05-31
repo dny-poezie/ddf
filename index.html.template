@@ -13,7 +13,7 @@
 			const today = new Date().toISOString().substring(0, 10);
 
 			// do not color out any events if it's not June anymore
-			if (today >= "2023-06-30") { return; }
+			if (today >= "2024-06-30") { return; }
 
 			var currentEvents = document.getElementById("current-events");
 			var pastEvents = document.getElementById("past-events");

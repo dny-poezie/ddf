@@ -5,52 +5,77 @@
 	"contact": "macura@gymnachod.cz",
 	"events": [
 		{
-			"date": "2024-06-05 17:00",
+			"date": "2024-06-05 17:55",
 			"place": "Aula JGN",
 			"title": "Pět",
-			"authors": [
-				"DRED"
-			],
-			"description": [
-				""
-			],
-			"facebook": ""
+			"author": "DRED",
+			"description": "Pět, čtyři, tři, dva, jedna, velký třesk a plesky. 5, 4, 3, 2, 0, -1, -2, -3, -4, -5, velký třeskutý ples, hudba, činy, hlásky, prodej horkých a mražených hondogů. DRED jako každým rokem odváží prvních deset deka divadelní poezie.",
+			"price": "100,-"
 		},
 		{
 			"date": "2024-06-08 19:30",
 			"place": "Aula JGN",
 			"title": "Všechno své si nosím s sebou",
-			"authors": [
-				"Markéta Bohadlová"
-			],
-			"description": [
-				""
-			],
-			"facebook": ""
+			"author": "Markéta Bohadlová",
+			"description": "“Všechno své si nosím s sebou. Něco v batohu, v kapse, v hlavě. A pak jsou tu věci, o kterých ani nevím, že je nosím. Mám v sobě od předků trochu hor, luk a i města. Nevím, zda je to domov, ale je to moje. Nějak.” Markéta Bohadlová si ve svém batohu přinese trochu Brna, trochu Jamu, trochu z každé verze jejího JÁ. Do domoviny se vrátí a zavzpomíná.",
+			"price": "100,-"
+		},
+		{
+			"date": "2024-06-10 17:00",
+			"place": "Aula JGN",
+			"title": "Juany/i",
+			"author": "DREJG",
+			"description": "Všichni jsou Juani? Všichni by chtěli být Juani? Všichni by měli být Juani? Soubor Drejg, hrdě reprezentující Jiráskovo gymnázium na divadelních přehlídkách Audimafor, Šrámkův Písek, Mladá scéna v Ústí nad Orlicí a další, v letošním roce přichází s jevištní koláží z různých verzí juanovského mýtu od renesance po současnost. Drejg inspiruje, hledá, experimentuje, spojuje. Spojte se s ním!",
+			"price": "100,-"
+		},
+		{
+			"date": "2024-06-13 17:00",
+			"place": "JGN, dvůr venku",
+			"title": "Příběh stromů",
+			"author": "Geisslers Hofcomoedianten",
+			"description": "Soubor Geisslers Hofcomoedianten a divadlo Vocaď Pocaď vytvořili loutkovou inscenaci pro děti i jejich rodiče. V ní poodkrývají krásu a tajemství stromů, přičemž vycházejí z výzkumu německého autora Petera Wohllebena. Společně se zaposloucháme do tónů barokní hudby a oddáme se všem kouzlům lesa."
+		},
+		{
+			"date": "2024-06-14 19:30",
+			"place": "Aula JGN",
+			"title": "SLAM POETRY",
+			"author": "Anatol Svahilec, Tim Postovit, Honza Nevečeřal",
+			"description": "Pro všechny nadšence hry se slovem radostně prohlašujeme, že ANATOL SVAHILEC (mistr ČR 2014, maskot žánru, strýček Jedlička české slam poetry), TIM POSTOVIT (mistr Duo slamu 2019, rusista a překladatel, poeticko-humoristický performativní zbojník), HONZA NEVEČEŘAL (muž divé exprese i distinguovaného, nejen jevištního, vystupování) jsou jasnou zárukou kvalitního performativního zážitku."
+		},
+		{
+			"date": "2024-06-19 18:30",
+			"place": "Aula JGN",
+			"title": "Back to Bullerbyn",
+			"author": "Divadlo Športniki",
+			"description": "Večer naplněn hned dvěma jedinečnými programy! Tím prvním je inscenace Back to Bullerbyn, jež volně pracuje s motivy knihy Astrid Lindgrenové. Zvědavému divákovi ukáže, co se stane s Bullerbynem, když člověk dospěje. Na představení naváže..."
+		},
+		{
+			"date": "2024-06-19 20:30",
+			"place": "Aula JGN",
+			"title": "Koncert",
+			"author": "Jelení Loje",
+			"description": "...koncert hudebně-dramatické kapely Jelení Loje, která prostor auly naplní jazzem a swingem. Čtyři herečky, zpěvačky a instrumentalistky (Jana Nosálková, Anna Theimerová, Johana Vavřínová a Elena Volpi) a herec a kytarista Václav Jelínek se nebojí mísit zpěv, tanec, ironii a improvizaci. Do své kabaretní show vtáhnou každého!"
 		},
 		{
 			"date": "2024-06-21 19:00",
-			"place": "Antikvariát",
+			"place": "Antikvariát Hora",
 			"title": "Antikvariátní večírek",
-			"authors": [
-				"Společnost pro organizaci Antikvariátních večírků"
-			],
-			"description": [
-				""
-			],
-			"facebook": ""
+			"author": "Společnost pro organizaci Antikvariátních večírků",
+			"description": "Dveře náchodského antikvariátu zůstanou výjimečně otevřené i po šesté hodině večer, aby krásné duše mohly společně pobývat, prohlížet si knihy, kupovat knihy, popíjet víno, poslouchat hudbu a letos se i netradičním způsobem rozpohybovat."
+		},
+		{
+			"date": "2024-06-26 17:00",
+			"place": "Déčko Náchod",
+			"title": "Knížkové divadlo pro děti",
+			"author": "Přečíst spolu",
+			"description": "Přátelské zdivadlení jedné velmi hmyzí dětské knížky v produkci holek, co (si) rády čtou, a jejich rodin, přátel i náhodných kolemjdoucích."
 		},
 		{
 			"date": "2024-06-28 19:30",
 			"place": "Aula JGN",
 			"title": "Košilice a Okšila",
-			"authors": [
-				"Manus Art"
-			],
-			"description": [
-				""
-			],
-			"facebook": ""
+			"author": "Manus Art",
+			"description": "Pražský taneční soubor Manus Art Collective v díle Košilice a Okšila prozkoumává vrstvy textilu, v nichž se každý jedinec může jednoduše schovat a přejímat odlišné identity. Pokládá si otázku, jakým způsobem může náš zevnějšek ovlivňovat naše okolí a poukazuje na absurditu volby “módních” kousků, které nás ve společnosti definují."
 		}
 	]
 }
