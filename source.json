@@ -33,49 +33,56 @@
 			"place": "JGN, dvůr venku",
 			"title": "Příběh stromů",
 			"author": "Geisslers Hofcomoedianten",
-			"description": "Soubor Geisslers Hofcomoedianten a divadlo Vocaď Pocaď vytvořili loutkovou inscenaci pro děti i jejich rodiče. V ní poodkrývají krásu a tajemství stromů, přičemž vycházejí z výzkumu německého autora Petera Wohllebena. Společně se zaposloucháme do tónů barokní hudby a oddáme se všem kouzlům lesa."
+			"description": "Soubor Geisslers Hofcomoedianten a divadlo Vocaď Pocaď vytvořili loutkovou inscenaci pro děti i jejich rodiče. V ní poodkrývají krásu a tajemství stromů, přičemž vycházejí z výzkumu německého autora Petera Wohllebena. Společně se zaposloucháme do tónů barokní hudby a oddáme se všem kouzlům lesa.",
+			"price": "70,- (dítě), 100,- (dospělý), 220,- (rodina)"
 		},
 		{
 			"date": "2024-06-14 19:30",
 			"place": "Aula JGN",
 			"title": "SLAM POETRY",
 			"author": "Anatol Svahilec, Tim Postovit, Honza Nevečeřal",
-			"description": "Pro všechny nadšence hry se slovem radostně prohlašujeme, že ANATOL SVAHILEC (mistr ČR 2014, maskot žánru, strýček Jedlička české slam poetry), TIM POSTOVIT (mistr Duo slamu 2019, rusista a překladatel, poeticko-humoristický performativní zbojník), HONZA NEVEČEŘAL (muž divé exprese i distinguovaného, nejen jevištního, vystupování) jsou jasnou zárukou kvalitního performativního zážitku."
+			"description": "Pro všechny nadšence hry se slovem radostně prohlašujeme, že ANATOL SVAHILEC (mistr ČR 2014, maskot žánru, strýček Jedlička české slam poetry), TIM POSTOVIT (mistr Duo slamu 2019, rusista a překladatel, poeticko-humoristický performativní zbojník), HONZA NEVEČEŘAL (muž divé exprese i distinguovaného, nejen jevištního, vystupování) jsou jasnou zárukou kvalitního performativního zážitku.",
+			"price": "100,-/150,- (v předprodeji/na místě)"
 		},
 		{
 			"date": "2024-06-19 18:30",
 			"place": "Aula JGN",
 			"title": "Back to Bullerbyn",
 			"author": "Divadlo Športniki",
-			"description": "Večer naplněn hned dvěma jedinečnými programy! Tím prvním je inscenace Back to Bullerbyn, jež volně pracuje s motivy knihy Astrid Lindgrenové. Zvědavému divákovi ukáže, co se stane s Bullerbynem, když člověk dospěje. Na představení naváže..."
+			"description": "Večer naplněn hned dvěma jedinečnými programy! Tím prvním je inscenace Back to Bullerbyn, jež volně pracuje s motivy knihy Astrid Lindgrenové. Zvědavému divákovi ukáže, co se stane s Bullerbynem, když člověk dospěje. Na představení naváže...",
+			"price": "samostatně 150,-/180,- (v předprodeji/na místě); celý večer 250,-/300,- (v předprodeji/na místě)"
 		},
 		{
 			"date": "2024-06-19 20:30",
 			"place": "Aula JGN",
 			"title": "Koncert",
 			"author": "Jelení Loje",
-			"description": "...koncert hudebně-dramatické kapely Jelení Loje, která prostor auly naplní jazzem a swingem. Čtyři herečky, zpěvačky a instrumentalistky (Jana Nosálková, Anna Theimerová, Johana Vavřínová a Elena Volpi) a herec a kytarista Václav Jelínek se nebojí mísit zpěv, tanec, ironii a improvizaci. Do své kabaretní show vtáhnou každého!"
+			"description": "...koncert hudebně-dramatické kapely Jelení Loje, která prostor auly naplní jazzem a swingem. Čtyři herečky, zpěvačky a instrumentalistky (Jana Nosálková, Anna Theimerová, Johana Vavřínová a Elena Volpi) a herec a kytarista Václav Jelínek se nebojí mísit zpěv, tanec, ironii a improvizaci. Do své kabaretní show vtáhnou každého!",
+			"price": "samostatně 150,-/180,- (v předprodeji/na místě); celý večer 250,-/300,- (v předprodeji/na místě)"
 		},
 		{
 			"date": "2024-06-21 19:00",
 			"place": "Antikvariát Hora",
 			"title": "Antikvariátní večírek",
 			"author": "Společnost pro organizaci Antikvariátních večírků",
-			"description": "Dveře náchodského antikvariátu zůstanou výjimečně otevřené i po šesté hodině večer, aby krásné duše mohly společně pobývat, prohlížet si knihy, kupovat knihy, popíjet víno, poslouchat hudbu a letos se i netradičním způsobem rozpohybovat."
+			"description": "Dveře náchodského antikvariátu zůstanou výjimečně otevřené i po šesté hodině večer, aby krásné duše mohly společně pobývat, prohlížet si knihy, kupovat knihy, popíjet víno, poslouchat hudbu a letos se i netradičním způsobem rozpohybovat.",
+			"price": "dobrovolné"
 		},
 		{
 			"date": "2024-06-26 17:00",
 			"place": "Déčko Náchod",
 			"title": "Knížkové divadlo pro děti",
 			"author": "Přečíst spolu",
-			"description": "Přátelské zdivadlení jedné velmi hmyzí dětské knížky v produkci holek, co (si) rády čtou, a jejich rodin, přátel i náhodných kolemjdoucích."
+			"description": "Přátelské zdivadlení jedné velmi hmyzí dětské knížky v produkci holek, co (si) rády čtou, a jejich rodin, přátel i náhodných kolemjdoucích.",
+			"price": "50,-"
 		},
 		{
 			"date": "2024-06-28 19:30",
 			"place": "Aula JGN",
 			"title": "Košilice a Okšila",
 			"author": "Manus Art",
-			"description": "Pražský taneční soubor Manus Art Collective v díle Košilice a Okšila prozkoumává vrstvy textilu, v nichž se každý jedinec může jednoduše schovat a přejímat odlišné identity. Pokládá si otázku, jakým způsobem může náš zevnějšek ovlivňovat naše okolí a poukazuje na absurditu volby “módních” kousků, které nás ve společnosti definují."
+			"description": "Pražský taneční soubor Manus Art Collective v díle Košilice a Okšila prozkoumává vrstvy textilu, v nichž se každý jedinec může jednoduše schovat a přejímat odlišné identity. Pokládá si otázku, jakým způsobem může náš zevnějšek ovlivňovat naše okolí a poukazuje na absurditu volby “módních” kousků, které nás ve společnosti definují.",
+			"price": "150,-"
 		}
 	]
 }

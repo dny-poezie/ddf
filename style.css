@@ -106,6 +106,10 @@ article#past-events {
 .event img { width: 1rem; }
 .event .description {text-align: justify; margin-top: 3rem;}
 
+.event p.price {
+    font-size: 0.8em;
+}
+
 footer {
     height: 50vh;
 
